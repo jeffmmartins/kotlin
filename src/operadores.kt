@@ -1,0 +1,25 @@
+fun main() {
+    var h: Boolean = false
+    h = !(h)
+    println(h)
+}
+
+/*
+OPERADORES LÓGICOS:
+&& = E
+|| = OU
+! = NEGAÇÃO
+OPERAORES MATEMATICOS:
++ = ADIÇÃO
+- = SUBTRAÇÃO
+* = MULTIPLICAÇÃO
+/ = DIVISÃO
+% = RESTO DA DIVISÃO
+OPERADORES COMPARATIVOS:
+> = MAIOR QUE
+>= = MAIOR OU IGUAL
+> = MENOR QUE
+>= = MENOR OU IGUAL
+== = IGUALDADE VOLTADA A COMPARAR VALORES
+!= = DIFERENTE
+ */
