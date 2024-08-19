@@ -9,4 +9,10 @@ fun main() {
         println("loop done")
         i++
     }
+    print("\n")
+
+    do {
+        print(("Qual seu nome: "))
+        val value = readLine()
+    }while (value == "")
 }
