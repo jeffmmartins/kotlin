@@ -24,4 +24,12 @@ fun main() {
         }
         print("${i} ")
     }
+    var str2 = "teste de perfil"
+    for (i in 0 .. (str2.length-1)){
+        if (str2[i] == 'e' || str2[i] == 'i'){
+            continue
+        }
+        print("${str2[i]} ")
+    }
+
 }
