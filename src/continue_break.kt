@@ -17,4 +17,11 @@ fun main() {
         print("${str[j]} ")
         j++
     }
+    for (i in 0 .. 20){
+        if (i%2 == 1){
+            continue
+
+        }
+        print("${i} ")
+    }
 }
