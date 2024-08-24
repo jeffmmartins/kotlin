@@ -3,4 +3,10 @@ fun main() {
     for (i in 0 .. numero.size-1){
         println(i)
     }
+    print('\n')
+
+    var n = Array(size = 10, {i->i})
+    for (i in n) {
+        print("${n[i]}")
+    }
 }
