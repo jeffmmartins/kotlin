@@ -9,4 +9,9 @@ fun main() {
     for (i in n) {
         print("${n[i]}")
     }
+
+    var j = booleanArrayOf(true, false, false, true)
+    for (i in j){
+        println(i)
+    }
 }
