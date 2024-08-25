@@ -14,5 +14,12 @@ fun main() {
             }
             println()
         }
+        println()
+        for (linha in matriz){
+            for (valor in linha){
+                print(valor)
+            }
+            println()
+        }
     }
 }
