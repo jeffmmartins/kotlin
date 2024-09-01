@@ -5,4 +5,6 @@ fun main() {
     } else {
         print(str)
     }
+    //operador elvis - semelhando ao ternario de outras linguagens.
+    print(str?: "nula")
 }
