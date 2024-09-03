@@ -14,6 +14,13 @@ fun ler_double() {
     println("o numero é: ${num  + 1}")
 }
 
+fun ler_float() {
+    val scan = Scanner(System. `in`)
+    println("Digite o numero tipo float: ")
+    var num = scan.nextFloat()
+    println("o numero é: ${num  + 1}")
+}
+
 fun main() {
  ler_int()
  ler_double()
