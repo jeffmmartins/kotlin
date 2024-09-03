@@ -25,17 +25,20 @@ fun ler_string() {
     val scan = Scanner(System. `in`)
     println("Digite o numero tipo string: ")
     var num = scan.next()
-    println("o numero é: ${num  + 1}")
+    println("o numero é: ${num}")
 }
 
 fun ler_boolean() {
     val scan = Scanner(System. `in`)
     println("Digite o numero tipo boolean: ")
     var num = scan.nextBoolean()
-    println("o numero é: ${num  + 1}")
+    println("o numero é: ${num}")
 }
 
 fun main() {
  ler_int()
  ler_double()
+    ler_boolean()
+    ler_string()
+ler_float()
 }
