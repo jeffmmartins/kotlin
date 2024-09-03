@@ -28,6 +28,13 @@ fun ler_string() {
     println("o numero é: ${num  + 1}")
 }
 
+fun ler_boolean() {
+    val scan = Scanner(System. `in`)
+    println("Digite o numero tipo boolean: ")
+    var num = scan.nextBoolean()
+    println("o numero é: ${num  + 1}")
+}
+
 fun main() {
  ler_int()
  ler_double()
