@@ -21,6 +21,13 @@ fun ler_float() {
     println("o numero é: ${num  + 1}")
 }
 
+fun ler_string() {
+    val scan = Scanner(System. `in`)
+    println("Digite o numero tipo string: ")
+    var num = scan.next()
+    println("o numero é: ${num  + 1}")
+}
+
 fun main() {
  ler_int()
  ler_double()
