@@ -32,7 +32,7 @@ fun ler_boolean() {
     val scan = Scanner(System. `in`)
     println("Digite o numero tipo boolean: ")
     var num = scan.nextBoolean()
-    println("o numero é: ${num}")
+    println("o numero é: ${num}") 
 }
 
 fun main() {
