@@ -11,7 +11,7 @@ fun main() {
     }
 
     println()
-    val num = -4.0
+    val num = 4.0
     try {
         val raiz = sqrt(num)
         if (num < 0){
