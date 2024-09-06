@@ -1,4 +1,5 @@
 import java.io.File
+import java.io.FileNotFoundException
 import java.util.Scanner
 
 
@@ -8,12 +9,12 @@ fun ler_arquivo(){
     try {
         Scanner(arquivo).use { l ->
             while (l.hasNext()){
-                print(l.next())
+                println(l.next())
             }
             l.close()
         }
-    }catch (){
-
+    }catch (e: FileNotFoundException){
+        print("Falha ao ler o arquivo")
     }
 }
 
