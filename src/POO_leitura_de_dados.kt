@@ -1,4 +1,4 @@
-class Pessoa (val ano_nasc: Int, var nome: String){
+class Pessoa_ (val ano_nasc: Int, var nome: String){
     var idade = 2023 - ano_nasc
     fun saudacao(){
         println("Seja bem vindo ${this.nome}")
@@ -13,7 +13,13 @@ class Pessoa (val ano_nasc: Int, var nome: String){
 }
 
 fun main() {
-    var pessoa: Pessoa = Pessoa(ano_nasc = 1988, nome = "Jefferson")
+    println("Qual ano do seu nascimento: ")
+    var x = readlnOrNull()?.toInt() ?: 0
+    println("qual seu nome: ")
+    var y = readln()
+    println("Voce esta acordado?")
+    var z = readlnOrNull().toBoolean() ?: false
+    var pessoa: Pessoa_ = Pessoa_(x,y)
     println(pessoa.nome)
     println(pessoa.ano_nasc)
     println(pessoa.idade)
