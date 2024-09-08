@@ -18,11 +18,17 @@ fun main() {
     println("qual seu nome: ")
     var y = readln()
     println("Voce esta acordado?")
-    var z = readlnOrNull().toBoolean() ?: false
+    var z = readln()
     var pessoa: Pessoa_ = Pessoa_(x,y)
     println(pessoa.nome)
     println(pessoa.ano_nasc)
     println(pessoa.idade)
     pessoa.saudacao()
-    pessoa.acordar(x = true)
+    if (z == "sim"){
+        pessoa.acordar(x = true)
+    }else if (z == "não"){
+        pessoa.acordar(x = false)
+    }
+
+
 }
