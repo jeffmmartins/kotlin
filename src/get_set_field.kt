@@ -6,9 +6,14 @@ class Planeta(var nome: String){
             println("acessando o GET")
             return field
         }
+        set(value) {
+            println("Acessando o SET")
+            field = value
+        }
 
 }
 
 fun main() {
-
+    var p: Planeta = Planeta(nome= "terra")
+    println("imprimindo o tamanho ${p.tamanho}")
 }
