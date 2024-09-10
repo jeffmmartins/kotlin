@@ -16,4 +16,8 @@ class Planeta(var nome: String){
 fun main() {
     var p: Planeta = Planeta(nome= "terra")
     println("imprimindo o tamanho ${p.tamanho}")
+    var a: Planeta = Planeta(nome = "Marte")
+    a.fala
+    a.fala = "novo planeta Marte"
+    a.fala
 }
