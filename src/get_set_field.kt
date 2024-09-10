@@ -13,6 +13,21 @@ class Planeta(var nome: String){
 
 }
 
+class Planeta2{
+    var nome: String = ""
+        get() {
+            println("novo valor é ${field}")
+            return field
+        }
+        set(value) {
+            if (value == ""){
+                println("Toda palavra tem um nome")
+            }else{
+                field = value
+            }
+        }
+}
+
 fun main() {
     var p: Planeta = Planeta(nome= "terra")
     println("imprimindo o tamanho ${p.tamanho}")
