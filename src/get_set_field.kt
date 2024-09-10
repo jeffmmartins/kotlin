@@ -35,4 +35,10 @@ fun main() {
     a.fala
     a.fala = "novo planeta Marte"
     a.fala
+
+    var p2 : Planeta2 = Planeta2()
+    p2.nome = ""
+    println("imprima ${p2.nome}")
+    p2.nome = "Jupiter"
+    println("Imprima ${p2.nome}")
 }
