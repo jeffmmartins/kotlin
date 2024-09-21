@@ -4,6 +4,6 @@ enum class Prioridade( val v:Int){
 
 fun main() {
     for (p in Prioridade.entries){
-        print(p)
+        print(p.v)
     }
 }
